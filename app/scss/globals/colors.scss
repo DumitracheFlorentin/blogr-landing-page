@@ -1,0 +1,33 @@
+// CSS Vars
+:root {
+  /*
+  - l = light
+  - v = very
+  - d = dark
+  - g = grayish
+  - d = dark
+  - de = desaturated
+  - bg = background
+  */
+
+  // Primary
+  --l-red: hsl(356, 100%, 66%);
+  --v-l-red: hsl(355, 100%, 74%);
+  --v-d-blue: hsl(208, 49%, 24%);
+
+  // Neutral
+  --white: hsl(0, 0%, 100%);
+  --g-blue: hsl(240, 2%, 79%);
+  --v-d-g-blue: hsl(207, 13%, 34%);
+  --v-d-black-blue: hsl(240, 10%, 16%);
+
+  // Background Gradient
+
+  // First Gradient
+  --bg-v-l-red: hsl(13, 100%, 72%);
+  --bg-l-red: hsl(353, 100%, 62%);
+
+  // Second Gradient
+  --bg-v-d-gray-blue: hsl(237, 17%, 21%);
+  --bg-v-d-de-blue: hsl(237, 23%, 32%);
+}
