@@ -1,0 +1,33 @@
+.footer {
+  background-color: var(--v-d-black-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  border-radius: 0px 100px 0px 0px;
+
+  &__logo {
+    img {
+      height: 2rem;
+    }
+  }
+
+  &__textField {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+      margin-top: 3.5rem;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: var(--white);
+    }
+
+    a {
+      margin-top: 0.75rem;
+      color: var(--g-blue);
+      cursor: pointer;
+    }
+  }
+}

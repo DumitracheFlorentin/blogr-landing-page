@@ -1,9 +1,27 @@
-@use '../util/' as *;
+@use "../util/" as *;
 
 h1,
 h2,
 h3,
 h4,
 p {
+  font-family: var(--font-overpass);
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font-overpass);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0.8rem 1.25rem;
+  border-radius: 25px;
 }

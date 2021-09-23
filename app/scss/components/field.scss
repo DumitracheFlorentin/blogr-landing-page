@@ -1,0 +1,48 @@
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-top: 6.5rem;
+    color: var(--v-d-blue);
+    font-size: 1.75rem;
+  }
+
+  &__photo {
+    margin-top: 2.5rem;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__textWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2.5rem;
+
+    h3 {
+      color: var(--v-d-blue);
+      margin-top: 2.5rem;
+      margin-bottom: 1.25rem;
+      text-align: center;
+      font-size: 1.5rem;
+
+      span {
+        display: block;
+      }
+    }
+
+    p {
+      line-height: 1.7;
+      color: var(--v-d-g-blue);
+      text-align: center;
+
+      &:last-child {
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}
